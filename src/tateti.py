@@ -1,6 +1,6 @@
-from src.tablero import Tablero
-from src.jugador import Jugador
-from src.cli import pedir_posicion, mostrar_mensaje
+from tablero import Tablero
+from jugador import Jugador
+from cli import pedir_posicion, mostrar_mensaje
 
 def jugar():
     tablero = Tablero()
